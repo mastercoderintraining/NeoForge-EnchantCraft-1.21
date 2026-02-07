@@ -20,8 +20,7 @@ public class ModBlocks {
             DeferredRegister.createBlocks(EnchantCraft.MOD_ID);
 
     public static final DeferredBlock<Block> ENCHANTED_ORE = registerBlock("enchanted_ore",
-            () -> new Block(BlockBehaviour.Properties.of()
-                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+            () -> new DropExperienceBlock(UniformInt.of(2,4), BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);
