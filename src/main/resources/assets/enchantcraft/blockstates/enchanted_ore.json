@@ -1,2 +1,7 @@
 {
+  "variants": {
+    "": {
+      "model": "enchantcraft:block/enchanted_ore"
+    }
+  }
 }
