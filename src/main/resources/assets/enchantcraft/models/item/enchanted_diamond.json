@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+  "layer0": "enchantcraft:item/enchanted_diamond"
+  }
+}
