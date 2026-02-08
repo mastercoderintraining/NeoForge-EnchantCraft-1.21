@@ -1,5 +1,5 @@
 {
-  "type": "minecraft:recipe_shaped",
+  "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
     "G": {
@@ -21,14 +21,8 @@
     "GTG"
   ],
   "result": {
-    "id": "minecraft:enchanted_book",
     "count": 1,
-    "components": {
-      "minecraft:enchantments": {
-        "levels": {
-          "minecraft:mending": 1
-        }
-      }
-    }
-  }
+    "id": "minecraft:enchanted_book",
+    "nbt": "{StoredEnchantments:[{id:\"minecraft:mending\",lvl:1s}]}"
+   }
 }
