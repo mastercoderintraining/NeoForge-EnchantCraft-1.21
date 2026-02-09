@@ -2,17 +2,19 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "B": {
-      "item": "minecraft:diamond"
-    }
-  },
+  "G": { "item": "minecraft:gold_ingot" },
+  "D": { "item": "minecraft:diamond_block" },
+  "E": { "item": "enchantcraft:enchanted_diamond" },
+  "T": { "item": "minecraft:ghast_tear" }
+},
   "pattern": [
-    "BBB",
-    "BBB",
-    "BBB"
+    "GDG",
+    "GEG",
+    "GTG"
   ],
+
   "result": {
     "count": 1,
-    "id": "minecraft:dirt"
+    "id": "minecraft:enchanted_book"
   }
 }
