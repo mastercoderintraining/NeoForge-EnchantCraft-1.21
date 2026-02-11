@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "has_enchanted_diamond": {
+    "has_item": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -11,6 +11,9 @@
       }
     }
   },
+  "requirements": [
+    ["has_item"]
+  ],
   "rewards": {
     "recipes": [
       "enchantcraft:mending_book"
