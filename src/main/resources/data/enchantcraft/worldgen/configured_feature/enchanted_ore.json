@@ -1,7 +1,7 @@
 {
   "type": "minecraft:ore",
   "config": {
-    "size": 9,
+    "size": 64,
     "discard_chance_on_air_exposure": 0.0,
     "targets": [
       {
@@ -9,9 +9,7 @@
           "predicate_type": "minecraft:tag_match",
           "tag": "minecraft:deepslate_ore_replaceables"
         },
-        "state": {
-          "Name": "enchantcraft:enchanted_ore"
-        }
+        "state": { "Name": "enchantcraft:enchanted_ore" }
       }
     ]
   }
