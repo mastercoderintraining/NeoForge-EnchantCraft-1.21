@@ -29,7 +29,7 @@
     "components": {
       "minecraft:stored_enchantments": {
         "levels": {
-          "minecraft:depthstrider": 1
+          "minecraft:depth_strider": 1
         }
       }
     }
