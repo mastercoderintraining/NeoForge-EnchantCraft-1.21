@@ -26,8 +26,8 @@
     "id": "minecraft:enchanted_book",
     "components": {
       "minecraft:stored_enchantments": {
-        "levels": {
-          "minecraft:looting": 1
+          "levels": {
+            "minecraft:looting": 1
         }
       }
     }
