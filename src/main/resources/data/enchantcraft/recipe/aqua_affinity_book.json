@@ -9,7 +9,7 @@
 				"item": "minecraft:diamond"
 			},
 			"E": {
-				"item": "bridge:enchanted_diamond"
+				"item": "enchantcraft:enchanted_diamond"
 			},
 			"K": {
 				"item": "minecraft:kelp"
@@ -29,7 +29,7 @@
     "components": {
       "minecraft:stored_enchantments": {
         "levels": {
-          "minecraft:mending": 1
+          "minecraft:aqua_affinity": 1
         }
       }
     }
