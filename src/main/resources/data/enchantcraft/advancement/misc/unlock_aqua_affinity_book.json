@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["enchantcraft:enchanted_diamond"]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["has_item"]
+  ],
+  "rewards": {
+    "recipes": [
+      "enchantcraft:aqua_affinity_book"
+    ]
+  }
+}
