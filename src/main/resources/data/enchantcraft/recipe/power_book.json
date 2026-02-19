@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "G": {
+      "item": "minecraft:glowstone"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "E": {
+      "item": "enchantcraft:enchanted_diamond"
+    },
+    "M": {
+      "item": "minecraft:melon"
+    },
+    "B": {
+      "item": "minecraft:book"
+    }
+  },
+  "pattern": [
+    "MDM",
+    "GBG",
+    "DED"
+  ],
+
+  "result": {
+    "count": 1,
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "levels": {
+          "minecraft:power": 1
+        }
+      }
+    }
+  }
+}
