@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "R": {
-      "item": "minecraft:rabbits_foot"
+      "item": "minecraft:rabbit_foot"
     },
     "D": {
       "item": "minecraft:diamond"
@@ -12,7 +12,7 @@
       "item": "enchantcraft:enchanted_diamond"
     },
     "P": {
-      "item": "minecraft:rabbit_pelt"
+      "item": "minecraft:rabbit_hide"
     },
     "B": {
       "item": "minecraft:book"
