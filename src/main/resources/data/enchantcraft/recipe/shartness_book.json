@@ -33,7 +33,7 @@
     "components": {
       "minecraft:stored_enchantments": {
         "levels": {
-          "minecraft:sharpness": 1
+          "minecraft:sharpness": 3
         }
       }
     }

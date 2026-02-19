@@ -27,7 +27,7 @@
     "components": {
       "minecraft:stored_enchantments": {
         "levels": {
-          "minecraft:fortune": 1
+          "minecraft:fortune": 3
         }
       }
     }

@@ -30,7 +30,7 @@
     "components": {
       "minecraft:stored_enchantments": {
         "levels": {
-          "minecraft:lunge": 1
+          "minecraft:lunge": 3
         }
       }
     }

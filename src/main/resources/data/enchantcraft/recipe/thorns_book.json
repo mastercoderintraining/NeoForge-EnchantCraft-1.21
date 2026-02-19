@@ -27,7 +27,7 @@
     "components": {
       "minecraft:stored_enchantments": {
         "levels": {
-          "minecraft:thorns": 1
+          "minecraft:thorns": 3
         }
       }
     }

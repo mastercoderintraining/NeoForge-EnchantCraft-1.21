@@ -30,7 +30,7 @@
     "components": {
       "minecraft:stored_enchantments": {
         "levels": {
-          "minecraft:respiration": 1
+          "minecraft:respiration": 3
         }
       }
     }

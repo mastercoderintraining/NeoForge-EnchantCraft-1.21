@@ -45,7 +45,7 @@
     "components": {
       "minecraft:stored_enchantments": {
         "levels": {
-          "minecraft:unbreaking": 1
+          "minecraft:unbreaking": 3
         }
       }
     }
