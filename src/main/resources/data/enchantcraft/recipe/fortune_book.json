@@ -2,8 +2,11 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "G": {
+    "L": {
       "item": "minecraft:gold_block"
+    },
+    "G": {
+      "item": "minecraft:gold_ingot"
     },
     "D": {
       "item": "minecraft:diamond_block"
@@ -16,7 +19,7 @@
     }
   },
   "pattern": [
-    "GDG",
+    "DGL",
     "GBG",
     "GEG"
   ],
