@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "G": {
+      "item": "minecraft:gold_block"
+    },
+    "D": {
+      "item": "minecraft:diamond_block"
+    },
+    "E": {
+      "item": "enchantcraft:enchanted_diamond"
+    },
+    "B": {
+      "item": "minecraft:book"
+    }
+  },
+  "pattern": [
+    "GDG",
+    "GBG",
+    "GEG"
+  ],
+
+  "result": {
+    "count": 1,
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "levels": {
+          "minecraft:fortune": 1
+        }
+      }
+    }
+  }
+}
