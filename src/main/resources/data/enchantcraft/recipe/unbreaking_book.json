@@ -1,0 +1,53 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "E": {
+      "item": "enchantcraft:enchanted_diamond"
+    },
+    "R": {
+      "item": "minecraft:redstone_block"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "G": {
+      "item": "minecraft:gold_block"
+    },
+    "I": {
+      "item": "minecraft:iron_block"
+    },
+    "L": {
+      "item": "minecraft:lapis_block"
+    },
+    "T": {
+      "item": "minecraft:deepslate"
+    },
+    "C": {
+      "item": "minecraft:copper_block"
+    },
+    "O": {
+      "item": "minecraft:obsidian"
+    },
+    "B": {
+      "item": "minecraft:book"
+    }
+  },
+  "pattern": [
+    "GIL",
+    "RBC",
+    "OED"
+  ],
+
+  "result": {
+    "count": 1,
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "levels": {
+          "minecraft:unbreaking": 1
+        }
+      }
+    }
+  }
+}
