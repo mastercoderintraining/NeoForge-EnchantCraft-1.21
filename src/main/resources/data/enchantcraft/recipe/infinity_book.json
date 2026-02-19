@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "S": {
+      "item": "minecraft:soul_sand"
+    },
+    "E": {
+      "item": "enchantcraft:enchanted_diamond"
+    },
+    "D": {
+      "item": "minecraft:diamond_block"
+    },
+    "B": {
+      "item": "minecraft:book"
+    }
+  },
+  "pattern": [
+    "SDS",
+    "SBS",
+    "SES"
+  ],
+
+  "result": {
+    "count": 1,
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "levels": {
+          "minecraft:infinity": 1
+        }
+      }
+    }
+  }
+}
