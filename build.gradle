@@ -166,12 +166,18 @@ publishing {
             from components.java
         }
     }
-    repositories {
-        maven {
-            url "file://${project.projectDir}/repo"
+        repositories {
+
+                mavenLocal()
+
+                maven { url = "https://maven.neoforged.net/releases" }
+
+                maven { url = "https://maven.parchmentmc.org" }
+
+                mavenCentral()
         }
+
     }
-}
 
 tasks.withType(JavaCompile).configureEach {
     options.encoding = 'UTF-8' // Use the UTF-8 charset for Java compilation

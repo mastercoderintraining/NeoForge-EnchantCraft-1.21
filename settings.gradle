@@ -1,7 +1,18 @@
 pluginManagement {
-    repositories {
-        gradlePluginPortal()
+    dependencyResolutionManagement {
+        repositoriesMode.set(RepositoriesMode.PREFER_PROJECT)
+
+        repositories {
+            mavenLocal()
+
+            maven { url = "https://maven.neoforged.net/releases" }
+
+            maven { url = "https://maven.parchmentmc.org" }
+
+            mavenCentral()
+        }
     }
+
 }
 
 plugins {
