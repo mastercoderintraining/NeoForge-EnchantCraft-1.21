@@ -31,6 +31,7 @@ public class EnchantCraft {
     // The constructor for the mod class is the first code that is run when your mod is loaded.
     // FML will recognize some parameter types like IEventBus or ModContainer and pass them in automatically.
     public EnchantCraft(IEventBus modEventBus, ModContainer modContainer) {
+        ModItems.register(modEventBus);
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
 
@@ -41,7 +42,7 @@ public class EnchantCraft {
         // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.
         NeoForge.EVENT_BUS.register(this);
 
-        //ModItems.register(modEventBus);
+
         //ModBlocks.register(modEventBus);  *****************
 
 
