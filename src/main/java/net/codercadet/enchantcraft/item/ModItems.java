@@ -9,8 +9,12 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 public class ModItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(EnchantCraft.MOD_ID);
 
-    public static final DeferredItem<Item> ENCHANTED_DIAMOND = ITEMS.register("enchanted_diamond",
-            () -> new Item(new Item.Properties()));
+//    public static final DeferredItem<Item> ENCHANTED_DIAMOND = ITEMS.register("enchanted_diamond",
+//            () -> new Item(new Item.Properties()));
+
+    public static final DeferredItem<Item> ENCHANTED_DIAMOND = ITEMS.registerItem("enchanted_diamond",
+            Item::new, new Item.Properties());
+
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
